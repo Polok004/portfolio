@@ -1,0 +1,151 @@
+﻿.container {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.About {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom:40px;
+}
+.tittle {
+    font-size: 40px;
+    pading: 40px;
+    background-color: brown;
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input {
+    width: 50%;
+    margin: 5px auto;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.textarea {
+    height: 100px;
+    resize: vertical;
+
+}
+
+.btn {
+    width: 25%;
+    margin: 20px 20px 20px 20px;
+    background-color:forestgreen;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+.header {
+    color: #333;
+}
+
+
+.form-container {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.button-container {
+    margin-top: 10px;
+}
+
+
+.container.btn-add {
+    width: 25%;
+    margin: 20px 20px 20px 20px;
+    background-color: forestgreen;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn-delete {
+    width: 25%;
+    margin: 20px 20px 20px 20px;
+    background-color: forestgreen;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.gridview-container {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto; 
+    text-align: center;
+}
+
+
+.gridview {
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    width: 100%;
+}
+
+    
+    .gridview th {
+        background-color: #cc6600;
+        color: #fff;
+        padding: 8px;
+    }
+
+    
+    .gridview td {
+        padding: 8px;
+        border: 1px solid #ddd; 
+    }
+
+
+@media only screen and (max-width: 600px) {
+    
+    .gridview a {
+        display: block;
+        text-decoration: none;
+        background-color: #f2f2f2;
+        color: #333;
+        padding: 8px;
+        margin-bottom: 5px;
+    }
+}
+

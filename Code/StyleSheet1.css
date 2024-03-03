@@ -1,0 +1,88 @@
+﻿
+.container {
+    text-align: center;
+}
+
+
+.header {
+    color: #333;
+}
+
+
+.form-container {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.button-container {
+    margin-top: 10px;
+}
+
+
+.btn-add {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.gridview-container {
+    margin-top: 20px;
+}
+
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+   
+    .gridview th {
+        background-color: #cc6600;
+        color: #fff;
+        padding: 8px;
+    }
+
+   
+    .gridview td {
+        padding: 8px;
+        border: 1px solid #ddd; 
+    }
+
+
+@media only screen and (max-width: 600px) {
+    
+    .gridview td {
+        display: block;
+    }
+
+    
+    .gridview th {
+        display: none;
+    }
+
+   
+    .gridview a {
+        display: block;
+        text-decoration: none;
+        background-color: #f2f2f2;
+        color: #333;
+        padding: 8px;
+        margin-bottom: 5px;
+    }
+}
