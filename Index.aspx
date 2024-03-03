@@ -108,7 +108,32 @@
      </div>
             <br />
             <br />
+            <br />
+            <div class="download-box">
+          <a href="Code/MyCV.docx" class="download-link">Download CV</a>
+  </div>
+  <style>   
+       .download-box {
+  display: inline-block;
+  border: 2px solid #f3bc17;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure border radius is applied to children */
+}
 
+.download-link {
+  display: block;
+  padding: 10px 20px;
+  background-color: #f3bc17;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.download-link:hover {
+  background-color: lightyellow;
+}
+
+</style>  
  </div>
 
     </div>
@@ -295,6 +320,7 @@
                  </a>
             </div>
             <div class="Portfolio" >
+                <a class="box-link" href="https://github.com/Polok004/My-portfolio.git" target="_blank" rel="noopener noreferrer">
                 <div class="content-box4">
                     <i class="fa-solid fa-user-tie" style="color: #11c92a;" ></i>
                     <br/>
@@ -302,6 +328,7 @@
                     <h4>Portfolio </h4><br/>
                     <p>This a personal website created using html,css,javascript for fronted and asp.net for backend .This project will show all kinds of information of user with dynamically modified</p>
                 </div>
+                </a>
             </div>
         </div>
     </div>

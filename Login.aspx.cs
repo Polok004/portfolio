@@ -78,8 +78,7 @@ namespace Portfolio
                         }
                         else
                         {
-                            // Password incorrect
-                            // Handle this case if needed
+
                         }
                     }
                 }
